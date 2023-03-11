@@ -1,0 +1,73 @@
+:root {
+  --leftper: 90%;
+  --rightper:40%;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-image:linear-gradient(80deg,#319694 0%, #15b771 100%);
+}
+#title{
+  color:#002a52;
+  text-align: center;
+  font-family:'Brush Script MT',cursive;
+  -webkit-text-fill-color: #79b1e2;
+  -webkit-text-stroke: .35vh;
+  font-size:8vh;
+  margin: auto;
+}
+#main{
+  background-color:#00000020;
+  text-align: center;
+  font-size:2vh;
+  font-family:'Brush Script MT',cursive;
+  height: 75vh;
+  width:90vw;
+  margin:0 5vw 0 5vw;
+  border-radius:5vh;
+  
+}
+#left{
+  margin:4vh 8vw;
+  
+}
+.bar{
+  height:50vh;
+  border: .5vh solid #117674;
+  border-radius:2vh;
+  width:10vmin;
+  margin:auto;
+}
+#leftbar{
+  background-image:linear-gradient(0deg,#319694 0%,#319694 var(--leftper),#20609930 var(--leftper));
+}
+#rightbar{
+  background-image:linear-gradient(0deg,#319694 0%,#319694 var(--rightper),#20609930 var(--rightper));
+}
+.rota{
+  position:absolute;
+  writing-mode:vertical-rl; 
+  margin:0 3vmin;
+  bottom:16vh;
+}
+.bartext{
+  font-size: 4vh;
+}
+.side{
+  position:absolute;
+  width:45vw;
+}
+.but{
+  border:none;
+  width:20wmin;
+  height:6vh;
+  font-size:4vh;
+  font-family:'Brush Script MT',cursive;
+  background-color:#319694;
+  padding:.5vh;
+  
+}
